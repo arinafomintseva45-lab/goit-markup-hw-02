@@ -4,43 +4,48 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Main Page</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/3.0.1/modern-normalize.min.css" integrity="sha512-q6WgHqiHlKyOqslT/lgBgodhd03Wp4BEqKeW6nNtlOY4quzyG3VoQKFrieaCeSnuVseNKRGpGeDU3qPmabCANg==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Raleway:wght@700&family=Roboto:wght@100..900&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="./css/styles.css">
 </head>
 <body>
-    <header>
+    <header class="page-header">
         
-        <nav>
-        <a href="./index.html">WebStudio</a>
+        <nav class="header-nav">
+        <a class="logo header-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
         
-        <ul>
+        <ul class="nav-list">
         
-        <li>
-            <a href="#">Studio</a>
+        <li class="nav-item">
+            <a class="nav-link" href="./index.html">Studio</a>
         </li>
-        <li>
-            <a href="#">Portfolio</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Portfolio</a>
 
         </li>
-        <li>
-            <a href="#">Contacts</a>
+        <li class="nav-item">
+            <a class="nav-link" href="#">Contacts</a>
         </li>
         </ul>
         </nav>
         
         
-          <address>
-            <ul>
-        <li><a href="mailto:info@devstudio.com">info@devstudio.com</a>
+          <address class="contacts">
+            <ul class="contacts-list">
+        <li class="contacts-item"><a class="contacts-link" href="mailto:info@devstudio.com">info@devstudio.com</a>
             </li>
-            <li>
-        <a href="tel:+110001111111">+11 (000) 111-11-11</a>
+            <li class="contacts-item">
+        <a class="contacts-link" href="tel:+110001111111">+11 (000) 111-11-11</a>
         </li>
     </ul>
     </address>
     </header>
     <main>
-       <section>
-    <h1>Effective Solutions for Your Business</h1>
-    <button type="button">Order Service</button>
+       <section class="main-page">
+    <h1 class="main-title">Effective Solutions for Your Business</h1>
+    <button type="button" class="main-button">Order Service</button>
     </section>
     <section>
         <h2>#</h2>
@@ -80,45 +85,72 @@
         </li>
     </ul>
     </section>
-    <section>
-        <h2>Our Team</h2>
+    <section  class="our-team">
+        <h2 class="our-team-title">Our Team</h2>
         <ul>
-           <li>
+           <li class="our-team-box">
                 <img src="./images/Mark-Guerrero.jpg" alt="Mark Guerrero" width="264" height="260">
-                <h3>Mark Guerrero</h3>
-                <p>Product Designer</p>
+                <h3 class="our-team-name">Mark Guerrero</h3>
+                <p class="our-team-tekst">Product Designer</p>
             </li>
-            <li>
+            <li class="our-team-box">
                 <img src="./images/Tom-Ford.jpg" alt="Tom Ford" width="264" height="260">
-                <h3>Tom Ford</h3>
-                <p>Frontend Developer</p>
+                <h3 class="our-team-name">Tom Ford</h3>
+                <p class="our-team-tekst">Frontend Developer</p>
             </li>
-            <li>
+            <li class="our-team-box">
                 <img src="./images/Camila-Garcia.jpg" alt="Camila Garcia" width="264" height="260">
-                <h3>Camila Garcia</h3>
-                <p>Marketing</p>
+                <h3 class="our-team-name">Camila Garcia</h3>
+                <p class="our-team-tekst">Marketing</p>
             </li>
-            <li>
+            <li class="our-team-box">
                 <img src="./images/Daniel-Wilson.jpg" alt="Daniel Wilson" width="264" height="260">
-                <h3>Daniel Wilson</h3>
-                <p>
+                <h3 class="our-team-name">Daniel Wilson</h3>
+                <p class="our-team-tekst">
                     UI Designer
                 </p>
             </li>
         </ul>
     </section>
-    <section>
-        <h2>Our Portfolio</h2>
+    <section class="our-portfolio">
+        <h2 class="our-portfolio-title">Our Portfolio</h2>
         <ul>
-            <li><img src="./images/Banking App.jpg" alt="Banking App"></li>
+        <li>
+            <img src="./images/Banking App.jpg" alt="Banking App" width="360">
+            <h3>Banking App</h3>
+            <p>App</p>
+        </li>
+        <li><img src="./images/Cashless Payment.jpg" alt="Cashless Payment" width="360">
+            <h3>Cashless Payment</h3>
+            <p>Marketing</p>
+        </li>
+        <li>
+            <img src="./images/Meditaion App.jpg" alt="Meditaion App" width="360">
+            <h3>Meditaion App</h3>
+            <p>App</p>
+        </li>
+            <li><img src="./images/Taxi Service.jpg" alt="Taxi Service" width="360">
+            <h3>Taxi Service</h3>
+            <p>Marketing</p>
+        </li>
+        <li>
+            <img src="./images/Screen Illustrations.jpg" alt="Screen Illustrations" width="360">
+            <h3>Screen Illustrations</h3>
+            <p>Design</p>
+        </li>
+        <li>
+            <img src="./images/Online Courses.jpg" alt="Online Courses" width="360" height="300">
+            <h3>Online Courses</h3>
+            <p>Marketing</p>
+        </li>
         </ul>
     </section>
     </main>
-    <footer>
+    <footer class="page-footer">
        
-            <a href="./index.html">WebStudio</a>
+            <a class="logo footer-logo" href="./index.html">Web<span class="logo-part">Studio</span></a>
            
-            <p>Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
+            <p class="footer-tekst">Increase the flow of customers and sales for your business with digital marketing & growth solutions.</p>
      
     
     </footer>
